@@ -2,9 +2,41 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 
 }
 
+nav{
+    height:80px;
+    padding:0 2.5%;
+    color: white;
+    background-image: linear-gradient(to top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+    margin-bottom: 10px;
+}
+
+.left{
+    float: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+
+}
+
+a{
+    padding: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.right{
+    height: 100%;
+    width: 40%;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .container{
 
