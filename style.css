@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+
+    margin:auto;
+    width: 90%;
+    height:600px;
+
+}
+
+.sez-immagine{
+    float: left;
+    width:90%;
+    height:100%;
+}
+
+.sez-frecce{
+    float: left;
+    width:5%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sez-frecce i{
+    font-size: 50px;
+}
+
+.sez-frecce i:hover{
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display:none;
+    /*object-fit: cover;*/
+}
+
+img.active{
+    display:block;
+}
