@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+// SLIDER VERSO DESTRA
     $('.next').click(function(){
 
         var img_attuale = $('img.active');
@@ -13,10 +15,35 @@ $(document).ready(function(){
         }
 
 
-        img_successiva.addClass('active')
+        img_successiva.addClass('active');
 
 
     })
+
+
+// SLIDER VERSO SINISTRA
+    $('.prev').click(function(){
+
+        var img_attuale = $('img.active');
+
+        var img_successiva = img_attuale.prev('img');
+
+        img_attuale.removeClass('active');
+
+        if (img_successiva.length == 0) {
+            img_successiva = $('img.last');
+        }
+
+
+        img_successiva.addClass('active');
+
+
+
+    })
+
+
+
+
 
 
 
