@@ -53,6 +53,102 @@ $(document).ready(function(){
 
     })
 
+    $('.pal1').click(function(){
+
+        var img_attuale = $('img.active');
+        var pal_attuale = $('span.active');
+
+        var img_successiva = $('.img1');
+        var pal_successivo = $('.pal1');
+
+
+
+        img_attuale.removeClass('active');
+        pal_attuale.removeClass('active');
+
+
+        img_successiva.addClass('active');
+        pal_successivo.addClass('active');
+
+
+
+
+
+
+    })
+    $('.pal2').click(function(){
+
+        var img_attuale = $('img.active');
+        var pal_attuale = $('span.active');
+
+        var img_successiva = $('.img2');
+        var pal_successivo = $('.pal2');
+
+
+
+        img_attuale.removeClass('active');
+        pal_attuale.removeClass('active');
+
+
+        img_successiva.addClass('active');
+        pal_successivo.addClass('active');
+
+
+
+
+
+
+    })
+    $('.pal3').click(function(){
+
+        var img_attuale = $('img.active');
+        var pal_attuale = $('span.active');
+
+        var img_successiva = $('.img3');
+        var pal_successivo = $('.pal3');
+
+
+
+        img_attuale.removeClass('active');
+        pal_attuale.removeClass('active');
+
+
+        img_successiva.addClass('active');
+        pal_successivo.addClass('active');
+
+
+
+
+
+
+    })
+    $('.pal4').click(function(){
+
+        var img_attuale = $('img.active');
+        var pal_attuale = $('span.active');
+
+        var img_successiva = $('.img4');
+        var pal_successivo = $('.pal4');
+
+
+
+        img_attuale.removeClass('active');
+        pal_attuale.removeClass('active');
+
+
+        img_successiva.addClass('active');
+        pal_successivo.addClass('active');
+
+
+
+
+
+
+    })
+
+
+
+
 
 
 

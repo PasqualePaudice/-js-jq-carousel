@@ -69,6 +69,10 @@ img.active{
     border:0.5px solid lightblue;
 }
 
+.sez-pallini span:hover{
+    cursor: pointer;
+}
+
 .sez-pallini span.active{
     background-color: lightblue;
 }
